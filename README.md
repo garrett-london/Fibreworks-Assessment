@@ -109,12 +109,20 @@ I used `test/populateMockData.sql` to validate the main behaviors I cared about:
 
 I used ChatGPT to speed up creation of the mock inserts, then checked that the sequences matched the schema and the reporting logic I wanted to test.
 
-## Supporting Images
+## ERD
 
 ![ERD Diagram](./images/ERD.png)
 
+## Table views
+
+### Employees Table
+
 ![Employees Table](./images/EmployeesTable.png)
 
+### Work Orders Table
+
 ![Work Orders Table](./images/WorkOrdersTable.png)
+
+### Work Sessions Table
 
 ![Work Sessions Table](./images/WorkSessionsTable.png)
